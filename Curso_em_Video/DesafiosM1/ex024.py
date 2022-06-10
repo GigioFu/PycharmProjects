@@ -1,0 +1,5 @@
+cidade = input("Escreva o nome de uma cidade: ")
+cidade = cidade.strip()
+cidade = cidade.lower()
+c1 = cidade.split()
+print("santo" in c1[0])
